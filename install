@@ -27,4 +27,8 @@ LC_ALL=C.UTF-8
     conda config --add channels conda-forge
     conda config --add channels bioconda
     
+    cd /bin
+    mkdir Shannon
+    cd Shannon
+    
     conda install -c bioconda shannon 
